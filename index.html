@@ -69,6 +69,7 @@
       }
       
       label { display: block; padding-bottom: 3px; font-size: 10pt; }
+	label a { color: #236868; text-decoration: none; }
       input { border: none; border-radius: 2px; font-size: 16pt; }
       span.form-required { display: none; }
       select { color: #777; font-size: 16pt; }
@@ -93,23 +94,13 @@
       }
       
       input#edit-submit {
-	/* background-color:#aa4b97;
-	text-indent:0px;
-	display:inline-block;
-	height:44px;
-	line-height:44px; */
-	width:156px;
-	text-decoration:none;
-	text-align:center;
-    border: none;
         position: absolute; right: 25px; bottom: 25px;
-	background: url('actionbutton.png') no-repeat;
+	background-image: url('actionbutton.png');
 	cursor: pointer;
 	color:#ffffff;
+	padding: 10px;
 }
-      input#edit-submit:hover {
-	background-color:#692e5d;
-}
+
 
     </style>
     
@@ -178,7 +169,7 @@
 </div><div class="webform-component webform-component-checkboxes" id="webform-component-i-agree-with-actionaids-privacy-policy"><div class="form-item">
  <label>I agree with ActionAid's privacy policy <span class="form-required" title="This field is required.">*</span></label>
  <div class="form-checkboxes"><div class="form-item" id="edit-submitted-i-agree-with-actionaids-privacy-policy-1-wrapper">
- <label class="form-option" for="edit-submitted-i-agree-with-actionaids-privacy-policy-1"><input type="checkbox" name="submitted[i_agree_with_actionaids_privacy_policy][0]" id="edit-submitted-i-agree-with-actionaids-privacy-policy-1" value="0"   class="checkbox" /> I agree with ActionAid's privacy policy</label>
+ <label class="form-option" for="edit-submitted-i-agree-with-actionaids-privacy-policy-1"><input type="checkbox" name="submitted[i_agree_with_actionaids_privacy_policy][0]" id="edit-submitted-i-agree-with-actionaids-privacy-policy-1" value="0"   class="checkbox" /> I agree with <a href="http://www.actionaid.org/privacy-policy">ActionAid's privacy policy</a></label>
 </div>
 </div>
 </div>
