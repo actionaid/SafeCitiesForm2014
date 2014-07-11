@@ -5,6 +5,38 @@
   	<meta charset="utf-8">
     <title>Safe Cities For Women - Sign the pledge!</title>
     
+    <script>
+      function validateForm() {
+    var x = document.forms["webform-client-form-549302"]["edit-submitted-first-name"].value;
+    if (x == null || x == "") {
+        alert("Please enter your first name");
+        return false;
+    }
+    var x = document.forms["webform-client-form-549302"]["edit-submitted-last-name"].value;
+    if (x == null || x == "") {
+        alert("Please enter your last name");
+        return false;
+    }
+    var x = document.forms["webform-client-form-549302"]["edit-submitted-country"].value;
+    if (x == null || x == "") {
+        alert("Please select your country");
+        return false;
+    }
+    var x = document.forms["webform-client-form-549302"]["edit-submitted-i-agree-with-actionaids-privacy-policy-1"].value;
+    if (x == null || x == "") {
+        alert("Please read and agree to our privacy policy");
+        return false;
+    }
+    var x = document.forms["webform-client-form-549302"]["edit-submitted-e-mail-address"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Please enter a valid e-mail address");
+        return false;
+    }
+}
+    </script>
+
     <style type="text/css">
       
     	@font-face {
@@ -46,7 +78,7 @@
         width: 165px; margin-bottom: 20px; }
       #edit-submitted-e-mail-address {  width: 210px; margin-bottom: 20px; }
       #edit-submitted-address-one { width: 245px; }
-      label[for="edit-submitted-address-one"] { margin-top: 20px; }
+      label[for="edit-submitted-address-one"] { margin-top: 25px; }
       #edit-submitted-address-two { width: 245px; margin-top: 10px; margin-bottom: 20px; }
       label[for="edit-submitted-address-two"] { display: none; }
       #edit-submitted-postcode { width: 140px; margin-bottom: 20px; }
@@ -84,13 +116,15 @@
   </head>
   <body>
     <div class="sc_form">
-      <h1>Safe Cities For Women</h1>
+      <div style="">
+		<h1><img style="vertical-align: middle; padding-right: 10px;" src="logo.png">Safe Cities For Women</h1>
+	</div>
       <h2>Your Voice Has Power.</h2>
       <p class="montserrat">Sign the pledge and spread the word that sexual harassment and abuse must stop, and stand up for women in cities everywhere.</p>
       
       
       
-<div class="field field-webform-form"><form action="http://www.actionaid.org/safe-cities-women-pledge"  accept-charset="UTF-8" method="post" id="webform-client-form-549302" class="webform-client-form" enctype="multipart/form-data"><div class="twocolumn">
+<div class="field field-webform-form"><form action="http://www.actionaid.org/safe-cities-women-pledge"  accept-charset="UTF-8" method="post" id="webform-client-form-549302" class="webform-client-form" enctype="multipart/form-data" onsubmit="return validateForm();"><div class="twocolumn">
 <div><div class="webform-component webform-component-textfield" id="webform-component-first-name"><div class="form-item" id="edit-submitted-first-name-wrapper">
  <label for="edit-submitted-first-name">First name <span class="form-required" title="This field is required.">*</span></label>
  <input type="text" maxlength="128" name="submitted[first_name]" id="edit-submitted-first-name" size="60" value="" class="form-text required" />
