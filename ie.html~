@@ -7,22 +7,22 @@
     
     <script>
       function validateForm() {
-    var x = document.forms["webform-client-form-549302"]["edit-submitted-first-name"].value;
+    var x = document.forms["webform-client-form-549788"]["edit-submitted-first-name"].value;
     if (x == null || x == "") {
         alert("Please enter your first name");
         return false;
     }
-    var x = document.forms["webform-client-form-549302"]["edit-submitted-last-name"].value;
+    var x = document.forms["webform-client-form-549788"]["edit-submitted-last-name"].value;
     if (x == null || x == "") {
         alert("Please enter your last name");
         return false;
     }
-    var x = document.forms["webform-client-form-549302"]["edit-submitted-i-agree-with-actionaids-privacy-policy"].value;
+    var x = document.forms["webform-client-form-549788"]["edit-submitted-i-agree-with-actionaids-privacy-policy"].value;
     if (x == null || x == "") {
         alert("Please read and agree to our privacy policy");
         return false;
     }
-    var x = document.forms["webform-client-form-549302"]["edit-submitted-e-mail-address"].value;
+    var x = document.forms["webform-client-form-549788"]["edit-submitted-e-mail-address"].value;
     var atpos = x.indexOf("@");
     var dotpos = x.lastIndexOf(".");
     if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=x.length) {
