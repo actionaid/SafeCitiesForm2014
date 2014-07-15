@@ -170,13 +170,6 @@
  <label for="edit-submitted-please-add-your-personal-message">Please add your personal message </label>
  <textarea cols="60" rows="5" name="submitted[please_add_your_personal_message]" id="edit-submitted-please-add-your-personal-message"  class="form-textarea resizable">I will not be quiet about sexual harassment and the abuse of women in my city. By signing this pledge, I am using my voice to join the call of people around the world to stop governments, corporations and individuals tolerating sexual harassment and abuse of women in cities everywhere.</textarea>
 </div>
-</div><div class="webform-component webform-component-checkboxes" id="webform-component-show-my-name-on-this-page"><div class="form-item">
- <label>Show my name on this page </label>
- <div class="form-checkboxes"><div class="form-item" id="edit-submitted-show-my-name-on-this-page-1-wrapper">
- <label class="form-option" for="edit-submitted-show-my-name-on-this-page-1"><input type="checkbox" name="submitted[show_my_name_on_this_page][0]" id="edit-submitted-show-my-name-on-this-page-1" value="0"   class="checkbox" /> Show my name on this page</label>
-</div>
-</div>
-</div>
 </div><div class="webform-component webform-component-checkboxes" id="webform-component-i-agree-with-actionaids-privacy-policy"><div class="form-item">
  <label>I agree with ActionAid's privacy policy <span class="form-required" title="This field is required.">*</span></label>
  <div class="form-checkboxes"><div class="form-item" id="edit-submitted-i-agree-with-actionaids-privacy-policy-1-wrapper">
