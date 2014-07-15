@@ -145,7 +145,7 @@
 </div><div class="webform-component webform-component-checkboxes" id="webform-component-i-agree-with-actionaids-privacy-policy"><div class="form-item">
  <label>I agree with <a href="http://www.actionaid.org/privacy-policy">ActionAid's privacy policy</a> <span class="form-required" title="This field is required.">*</span></label>
  <div class="form-checkboxes"><div class="form-item" id="edit-submitted-i-agree-with-actionaids-privacy-policy-1-wrapper">
- <label class="form-option" for="edit-submitted-i-agree-with-actionaids-privacy-policy-1"><input type="checkbox" name="submitted[i_agree_with_actionaids_privacy_policy][0]" id="edit-submitted-i-agree-with-actionaids-privacy-policy-1" value="0"   class="checkbox" /> Yes</label>
+ <label class="form-option" for="edit-submitted-i-agree-with-actionaids-privacy-policy-1"><input type="checkbox" name="submitted[i_agree_with_actionaids_privacy_policy][0]" id="edit-submitted-i-agree-with-actionaids-privacy-policy-1" value="0"   class="checkbox" /> I agree with <a href="http://www.actionaid.org/privacy-policy">ActionAid's privacy policy</a></label>
 </div>
 </div>
 </div>
@@ -156,7 +156,7 @@
 <input type="hidden" name="form_build_id" id="form-1831dc288d3caa47cbee6500f551677b" value="form-1831dc288d3caa47cbee6500f551677b"  />
 <input type="hidden" name="form_token" id="edit-webform-client-form-549788-form-token" value="6508f8440bfbe9aee92ac5e3b6705268"  />
 <input type="hidden" name="form_id" id="edit-webform-client-form-549788" value="webform_client_form_549788"  />
-<div id="edit-actions" class="form-actions form-wrapper"><div class="form-button edit-submit"><span><input type="submit" name="op" id="edit-submit" value="Submit"  class="form-submit" /></span></div>
+<div id="edit-actions" class="form-actions form-wrapper"><div class="form-button edit-submit"><span><input type="submit" name="op" id="edit-submit" value="Take Action"  class="form-submit" /></span></div>
 </div>
 </div></form>
 </div>
