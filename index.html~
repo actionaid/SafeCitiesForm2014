@@ -22,8 +22,8 @@
         alert("Please select your country");
         return false;
     }
-    var x = document.forms["webform-client-form-549302"]["edit-submitted-i-agree-with-actionaids-privacy-policy-1"].checkbox;
-    if (x != "checked") {
+    var x = document.forms["webform-client-form-549302"]["edit-submitted-i-agree-with-actionaids-privacy-policy-1"].checked;
+    if (x != true) {
         alert("Please read and agree to our privacy policy");
         return false;
     }

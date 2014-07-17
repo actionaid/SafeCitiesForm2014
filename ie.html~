@@ -39,7 +39,7 @@
     		src: url('UniSansHeavy.otf') format("opentype");
 		}
       
-      body { color: #fff; }
+      body { color: #fff; background-color: #45B9B9 }
       
       h2, input#edit-submit {
         font-family: 'uni_sansheavy_caps', sans-serif;
@@ -159,49 +159,6 @@
     
     
     
-    
-    
-    
-    
-    <div class="field field-webform-form"><form action="http://www.actionaid.ie/safe-cities-women-pledge"  accept-charset="UTF-8" method="post" id="webform-client-form-549788" class="webform-client-form" enctype="multipart/form-data" onsubmit="return validateForm();"><div class="twocolumn">
-<div><div class="webform-component webform-component-textfield" id="webform-component-first-name"><div class="form-item" id="edit-submitted-first-name-wrapper">
- <label for="edit-submitted-first-name">First name <span class="form-required" title="This field is required.">*</span></label>
- <input type="text" maxlength="128" name="submitted[first_name]" id="edit-submitted-first-name" size="60" value="" class="form-text required" />
-</div>
-</div><div class="webform-component webform-component-textfield" id="webform-component-last-name"><div class="form-item" id="edit-submitted-last-name-wrapper">
- <label for="edit-submitted-last-name">Last name <span class="form-required" title="This field is required.">*</span></label>
- <input type="text" maxlength="128" name="submitted[last_name]" id="edit-submitted-last-name" size="60" value="" class="form-text required" />
-</div>
-</div><div class="webform-component webform-component-email" id="webform-component-e-mail-address"><div class="form-item" id="edit-submitted-e-mail-address-wrapper">
- <label for="edit-submitted-e-mail-address">E-mail address <span class="form-required" title="This field is required.">*</span></label>
- <input class="form-text form-email required email" type="email" id="edit-submitted-e-mail-address" name="submitted[e_mail_address]" size="60" />
-</div>
-</div><div class="webform-component webform-component-textfield" id="webform-component-phone-number"><div class="form-item" id="edit-submitted-phone-number-wrapper">
- <label for="edit-submitted-phone-number">Phone number </label>
- <input type="text" maxlength="128" name="submitted[phone_number]" id="edit-submitted-phone-number" size="60" value="" class="form-text" />
-</div>
-</div></div></div><div><div class="webform-component webform-component-textarea" id="webform-component-please-add-your-personal-message"><div class="form-item" id="edit-submitted-please-add-your-personal-message-wrapper">
- <label for="edit-submitted-please-add-your-personal-message">Please add your personal message </label>
- <textarea cols="60" rows="5" name="submitted[please_add_your_personal_message]" id="edit-submitted-please-add-your-personal-message"  class="form-textarea resizable">I will not be quiet about sexual harassment and the abuse of women in my city. By signing this pledge, I am using my voice to join the call of people around the world to stop governments, corporations and individuals tolerating sexual harassment and abuse of women in cities everywhere.</textarea>
-</div>
-</div><div class="webform-component webform-component-checkboxes" id="webform-component-i-agree-with-actionaids-privacy-policy"><div class="form-item">
- <label>I agree with <a href="http://www.actionaid.org/privacy-policy">ActionAid's privacy policy</a> <span class="form-required" title="This field is required.">*</span></label>
- <div class="form-checkboxes"><div class="form-item" id="edit-submitted-i-agree-with-actionaids-privacy-policy-1-wrapper">
- <label class="form-option" for="edit-submitted-i-agree-with-actionaids-privacy-policy-1"><input type="checkbox" name="submitted[i_agree_with_actionaids_privacy_policy][0]" id="edit-submitted-i-agree-with-actionaids-privacy-policy-1" value="0"   class="checkbox" /> I agree with <a href="http://www.actionaid.ie/data-protection-policy">ActionAid's privacy policy</a></label>
-</div>
-</div>
-</div>
-</div><input type="hidden" name="details[sid]" id="edit-details-sid" value=""  />
-<input type="hidden" name="details[page_num]" id="edit-details-page-num" value="1"  />
-<input type="hidden" name="details[page_count]" id="edit-details-page-count" value="1"  />
-<input type="hidden" name="details[finished]" id="edit-details-finished" value="0"  />
-<input type="hidden" name="form_build_id" id="form-1831dc288d3caa47cbee6500f551677b" value="form-1831dc288d3caa47cbee6500f551677b"  />
-<input type="hidden" name="form_token" id="edit-webform-client-form-549788-form-token" value="6508f8440bfbe9aee92ac5e3b6705268"  />
-<input type="hidden" name="form_id" id="edit-webform-client-form-549788" value="webform_client_form_549788"  />
-<div id="edit-actions" class="form-actions form-wrapper"><div class="form-button edit-submit"><span><input type="submit" name="op" id="edit-submit" value="Take Action"  class="form-submit" /></span></div>
-</div>
-</div></form>
-</div>
     
       
       
